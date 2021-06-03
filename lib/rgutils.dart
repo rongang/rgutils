@@ -4,7 +4,7 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 export './widget_utils/slider_button.dart' show SliderButton;
 
-class Rgutils {
+class RgUtils {
   static const MethodChannel _channel =
       const MethodChannel('rgutils');
 

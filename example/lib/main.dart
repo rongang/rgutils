@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
     String platformVersion;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      platformVersion = await Rgutils.platformVersion;
+      platformVersion = await RgUtils.platformVersion;
     } on PlatformException {
       platformVersion = 'Failed to get platform version.';
     }
@@ -59,11 +59,11 @@ class _MyAppState extends State<MyApp> {
                 children: [
                   Expanded(
                     child: ListTile(
-                      title: Text('鞠昀怡'),
-                      subtitle: Text('小可爱'),
+                      title: Text('Mis J'),
+                      subtitle: Text('17806256324'),
                     ),
                   ),
-                  Text('hello')
+                  Text('>')
                 ],
               ),
               button1: TextButton(

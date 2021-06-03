@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 class SliderButton extends StatefulWidget {
-  final Widget child, button1, button2, button3;
+  final Widget? child, button1, button2, button3;
 
   SliderButton({
-    Key key,
+    Key? key,
     this.child,
     this.button1,
     this.button2,
@@ -18,7 +18,7 @@ class SliderButton extends StatefulWidget {
 
 class _SliderButtonState extends State<SliderButton> {
   ScrollController scrollController = ScrollController();
-  double offset;
+  late double offset;
 
   @override
   void initState() {
@@ -121,6 +121,5 @@ class HideSlideSplash extends ScrollBehavior {
           color: Colors.transparent,
         );
     }
-    return null;
   }
 }

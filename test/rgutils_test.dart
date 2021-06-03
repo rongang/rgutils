@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await Rgutils.platformVersion, '42');
+    expect(await RgUtils.platformVersion, '42');
   });
 }
